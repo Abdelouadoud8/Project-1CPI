@@ -1,0 +1,425 @@
+                     /* HEADER */
+
+.header{
+	width: 100%;
+	margin-left: 0;
+	margin-right: 0;
+	height: 70px;
+	line-height: 70px;
+	background-color: #08090B;
+	position: fixed;
+	top: 0;
+	z-index: 50;
+}
+
+.header .header-logo{
+	color: #FFFFFF;
+	font-family: 'Montserrat', sans-serif;
+	float: left;
+	margin-left: 110px;
+	color: #FFFFFF
+}
+
+.header .header-logo{
+	color: #FFFFFF;
+	font-family: 'Montserrat', sans-serif;
+	float: left;
+	margin-left: 100px;
+	margin-right: -98px;
+	color: white;
+}
+
+.header .header-menu{
+	float: right;
+	margin-right: 480px;
+}
+
+.header .header-menu a {
+	margin-right: 15px;
+	color: #FFFFFF;
+}
+
+.header .header-menu a:hover {
+	color: #3498db
+}
+
+.header .header-menu button{
+	position: fixed;
+	width: 7%;
+	text-align: right;
+	top: 20px;
+	margin-left: 650px;
+}
+
+.header .header-menu button{
+	margin-right: 20px;
+	color: #FFFFFF;
+}
+
+.header .header-menu button a {
+	margin-right: 0px;
+	color: #FFFFFF;
+}
+
+.header .header-menu button a:hover {
+	color: #FFFFFF;
+}
+
+
+					 /* BANNER */
+
+.banner{
+	margin-top: -25px;
+}
+
+.banner .banner-image {
+	position: relative;
+	margin-top: -250px;
+}
+
+.banner .banner-content{
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	top: 40%;
+}
+
+.banner .banner-content1{
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	top: 130%;
+	font-family: 'Lobster', cursive;
+}
+
+.banner .banner-content h1,
+.banner .banner-content h2{
+	color: #FFFFFF
+}
+
+.banner .banner-content button a{
+	color: #FFFFFF
+}
+
+					 /* IMAGE ABOUT */
+
+.about .about-single-element{
+	margin-top: 35%;
+}
+
+.about .about-single-element .icon {
+	width: 35%;
+	height: 120px;
+}
+
+.about .about-single-element {
+	text-align: center;
+}
+
+.about .about-single-element p {
+	text-align: center;
+	margin-top: 20px;
+}
+
+					 /* CONTACT PAGE */
+
+.banner_contact .banner-image {
+	position: relative;
+}
+
+.banner_contact .banner-content_contact{
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	top: 25%;
+}
+
+.banner_contact .banner-content_contact h1{
+	color: #FFFFFF
+}
+
+.form {
+	position: absolute;
+	width: 45%;
+	text-align: left;
+	top: 40%;
+	margin-left: 425px;
+}
+
+.form .label{
+	color: #08090B;
+}
+
+					 /* login Page */
+
+.form-login {
+	position: absolute;
+	width: 30%;
+	text-align: left;
+	top: 40%;
+	margin-left: 550px;
+}
+
+.form-login .label-login{
+	color: #08090B;
+}
+
+					 /* register Page */
+.register-form{
+	position: absolute;
+	width: 40%;
+	text-align: left;
+	top: 35%;
+	margin-left: 100px;
+}
+
+.banner-signup .banner-content-signup{
+  	position: absolute;
+	width: 100%;
+	text-align: left;
+	margin-left: 220px;
+	top: 20%;
+	color: #08090B
+}
+
+.image-register{
+	position: absolute;
+	width: 30%;
+	text-align: left;
+	margin-left: 800px;
+	top: 20%;
+	color: #08090B
+}
+
+					 /* A propos page */
+
+.banner-about .banner-content-about{
+  	position: absolute;
+	width: 100%;
+	text-align: left;
+	margin-left: 220px;
+	top: 30%;
+	color: #08090B;
+	font-family: 'Lemon', cursive;
+}
+
+.image-about{
+	position: absolute;
+	width: 30%;
+	text-align: left;
+	margin-left: 800px;
+	top: 8%;
+	color: #08090B
+}
+
+					 /* Clasement page */
+
+.banner-classement .banner-content-classement{
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	top: 20%;
+}
+
+.classement{
+	position: absolute;
+	width: 45%;
+	text-align: left;
+	top: 35%;
+	margin-left: 100px;
+}
+
+.classement-image{
+	position: absolute;
+	width: 20%;
+	text-align: left;
+	margin-left: 850px;
+	top: 45%;
+	color: #08090B
+}
+
+.classement-image h1{
+	color: red;
+	margin-top: 10%;
+	font-family: 'Lemon', cursive;
+}
+
+					 /* RESULT PAGE */
+.resultats{
+	position: absolute;
+	top: 45%;
+	margin-left: 380px;
+	width: 50%;
+}
+
+.resultats tr th{
+	color: black;
+	text-align: center;
+}
+
+
+					/* Matchs De la semaine (Soon) */ 
+
+.Soon{
+	margin-right: 50%;
+	position: relative;
+	width: 40%;
+	background-color: #292c2f;
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left; 
+	padding: 50px 120px 40px;
+	overflow: hidden;
+	border-radius: 40px;
+}
+
+.Soon .about-single-element{
+	text-align: center;
+}
+
+.Soon .about-single-element .icon {
+	width: 35%;
+	height: 120px;
+}
+
+.Soon p{
+	font-family: 'Lemon', cursive;
+	margin-top: 50px;
+	color: #FFFFFF;
+}
+
+.banner .Soon-content{
+	position: absolute;
+	width: 100%;
+	margin-top: 160px;
+	text-align: center;
+	font-family: 'Lobster', cursive;
+}
+
+
+					 /* Pied De Page */
+
+.footer-distributed{
+	background-color: #292c2f;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	font: bold 16px sans-serif;
+	text-align: left;
+	position: relative; 
+
+	padding: 50px 60px 40px;
+	margin-top: -25px;
+	overflow: hidden;
+}
+
+.footer-distributed .footer-left{
+	float: left;
+}
+
+
+.footer-distributed h3{
+	color:  #ffffff;
+	font: normal 36px 'Cookie', cursive;
+	margin: 0 0 10px;
+}
+
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	margin: 0 0 10px;
+	padding: 0;
+}
+
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+	color:  #8f9296;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.footer-distributed .footer-icons{
+	margin-top: 40px;
+}
+
+.footer-distributed .footer-icons img{
+
+	background-color:  rgb(0,0,0,0);
+	margin-right: 10px;
+}
+
+.footer-distributed .footer-right{
+	float: right;
+}
+
+.footer-distributed .footer-right p{
+	display: inline-block;
+	vertical-align: top;
+	margin: 15px 42px 0 0;
+	color: #ffffff;
+}
+
+
+.footer-distributed form{
+	display: inline-block;
+}
+
+.footer-distributed form input,
+.footer-distributed form textarea{
+	display: block;
+	border-radius: 3px;
+	box-sizing: border-box;
+	background-color:  #1f2022;
+	box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
+	border: none;
+	resize: none;
+	font: inherit;
+	font-size: 14px;
+	font-weight: normal;
+	color:  #d1d2d2;
+	width: 400px;
+	padding: 18px;
+}
+
+.footer-distributed ::-webkit-input-placeholder {
+	color:  #5c666b;
+}
+
+.footer-distributed ::-moz-placeholder {
+	color:  #5c666b;
+	opacity: 1;
+}
+
+.footer-distributed :-ms-input-placeholder{
+	color:  #5c666b;
+}
+
+
+.footer-distributed form input{
+	height: 55px;
+	margin-bottom: 15px;
+}
+
+.footer-distributed form textarea{
+	height: 100px;
+	margin-bottom: 20px;
+}
+
+.footer-distributed form button{
+	border-radius: 40px;
+	background-color:  #33383b;
+	color: #ffffff;
+	border: 0;
+	padding: 15px 50px;
+	font-weight: bold;
+	float: right;
+}
+
+
+
